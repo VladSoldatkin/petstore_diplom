@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test_ui": "npx playwright test --ui",
+    "codegen": "npx playwright codegen https://petstore.octoperf.com/actions/Catalog.action"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VladSoldatkin/petstore_diplom.git"
